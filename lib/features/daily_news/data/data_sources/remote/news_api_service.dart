@@ -1,20 +1,21 @@
 import 'package:news_app/core/constants/constants.dart';
-import 'package:news_app/features/daily_news/data/models/article.dart';
 import 'package:retrofit/retrofit.dart';
 import 'package:dio/dio.dart';
-part 'news_api_service.g.dart';
+
 
 @RestApi(baseUrl:newsAPIBaseUrl)
-abstract class NewsApiService{
-  factory NewsApiService(Dio dio)=_NewsApiService;
+class NewsApiService{
+  final Dio dio;
 
-  @GET('/top-headlines')
-  Future<HttpResponse<List<ArticleModel>>> getNewsArticle({
-    @Query("apiKey")String? apiKey,
-    @Query("country")String? country,
-    @Query("category")String? category,
+  NewsApiService({required this.dio});
 
+   getNewsArticle({required String country,required String category,required String apiKey})async{
+     Response response =await dio.get("$newsAPIBaseUrl$type?country=$country&category=$category&apiKey=$apiKey");
+     return response;
+     //print(response.data);
+  
 
-  });
+  
 
+}
 }

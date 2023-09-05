@@ -9,9 +9,9 @@ import 'package:news_app/features/daily_news/presentation/bloc/article/remote/re
 
 final getIt=GetIt.instance;
 
-Future<void> initializeDependencies()async{
+Future<void> initializeDependencies()async{ 
   getIt.registerSingleton<Dio>(Dio());
-  getIt.registerSingleton<NewsApiService>(NewsApiService(getIt()));
+  getIt.registerSingleton<NewsApiService>(NewsApiService(dio: getIt()));
   getIt.registerSingleton<ArticleRepository>(ArticleRepositoryImplimentation(getIt()));
   //usecases
   getIt.registerSingleton<GetArticleUseCase>(GetArticleUseCase(getIt()));
