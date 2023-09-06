@@ -1,9 +1,9 @@
 import 'package:news_app/core/constants/constants.dart';
-import 'package:retrofit/retrofit.dart';
+
 import 'package:dio/dio.dart';
 
 
-@RestApi(baseUrl:newsAPIBaseUrl)
+
 class NewsApiService{
   final Dio dio;
 
