@@ -6,3 +6,6 @@
 
 
 ![Simulator Screenshot - iphone 14 - 2023-09-07 at 11 08 55](https://github.com/rashifarhan/news_app/assets/115337593/f45bb37e-65f1-4f8e-8e9a-1d60a7af9a6b)
+![Simulator Screenshot - iphone 14 - 2023-09-07 at 11 09 18](https://github.com/rashifarhan/news_app/assets/115337593/fbf8e6bb-60bc-4736-ac97-35ca43144a6a)
+![Simulator Screenshot - iphone 14 - 2023-09-07 at 11 09 25](https://github.com/rashifarhan/news_app/assets/115337593/b9851919-4701-4124-9bff-577fa728d97d)
+![Simulator Screenshot - iphone 14 - 2023-09-07 at 11 09 33](https://github.com/rashifarhan/news_app/assets/115337593/b775c22e-c42b-42f7-b233-beed976c859f)
