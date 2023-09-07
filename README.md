@@ -3,4 +3,5 @@
 
 <h2>Output</h2>
 
-![Simulator Screenshot - iphone 14 - 2023-09-07 at 11 08 55](https://github.com/rashifarhan/news_app/assets/115337593/4d483186-c3e4-4207-b45e-87b31cd05d54)
+![Simulator Screenshot - iphone 14 - 2023-09-07 at 11 08 55](https://github.com/rashifarhan/news_app/assets/115337593/4d483186-c3e4-4207-b45e-87b31cd05d54){width="300" height="200"}
+
